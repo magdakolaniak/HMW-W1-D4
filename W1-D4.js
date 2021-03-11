@@ -88,6 +88,14 @@ check3and7 (25)
 /* EXERCISE 7
 Write a function "reverseString" to programmatically reverse a given string (es.: Strive => evirtS).
 */
+let givenString = "anything"
+let changed=""
+for (let i = givenString.length; i>0; i--) { 
+changed = givenString.substr(givenString.length - 1)}
+        console.log(changed)
+
+        
+
 
 /* WRITE YOUR CODE HERE */
 
