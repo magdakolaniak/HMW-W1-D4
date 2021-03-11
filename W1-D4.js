@@ -47,7 +47,12 @@ crazyDiff (40)
 /* EXERCISE 4
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
 */
-
+const boundary = function (n) {
+    if (n>20 && n <=100 && n===400) {
+        console.log("true")}
+        else {console.log("false")}
+    }
+boundary (400)
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 5
